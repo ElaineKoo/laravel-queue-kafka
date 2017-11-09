@@ -1,10 +1,10 @@
 <?php
 
-namespace Rapide\LaravelQueueKafka;
+namespace Koo\LaravelQueueKafka;
 
 use Illuminate\Queue\QueueManager;
 use Illuminate\Support\ServiceProvider;
-use Rapide\LaravelQueueKafka\Queue\Connectors\KafkaConnector;
+use Koo\LaravelQueueKafka\Queue\Connectors\KafkaConnector;
 
 class LaravelQueueKafkaServiceProvider extends ServiceProvider
 {

@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Rapide\\LaravelQueueKafka\\": "src/"
+      "Koo\\LaravelQueueKafka\\": "src/"
     }
   },
   "minimum-stability": "dev",

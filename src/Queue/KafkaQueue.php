@@ -1,13 +1,13 @@
 <?php
 
-namespace Rapide\LaravelQueueKafka\Queue;
+namespace Koo\LaravelQueueKafka\Queue;
 
 use ErrorException;
 use Exception;
 use Illuminate\Contracts\Queue\Queue as QueueContract;
 use Illuminate\Queue\Queue;
 use Log;
-use Rapide\LaravelQueueKafka\Queue\Jobs\KafkaJob;
+use Koo\LaravelQueueKafka\Queue\Jobs\KafkaJob;
 
 class KafkaQueue extends Queue implements QueueContract
 {

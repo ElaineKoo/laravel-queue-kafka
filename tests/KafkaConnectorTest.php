@@ -1,8 +1,8 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Rapide\LaravelQueueKafka\Queue\Connectors\KafkaConnector;
-use Rapide\LaravelQueueKafka\Queue\KafkaQueue;
+use Koo\LaravelQueueKafka\Queue\Connectors\KafkaConnector;
+use Koo\LaravelQueueKafka\Queue\KafkaQueue;
 
 class KafkaConnectorTest extends TestCase
 {

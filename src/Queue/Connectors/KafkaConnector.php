@@ -1,10 +1,10 @@
 <?php
 
-namespace Rapide\LaravelQueueKafka\Queue\Connectors;
+namespace Koo\LaravelQueueKafka\Queue\Connectors;
 
 use Illuminate\Container\Container;
 use Illuminate\Queue\Connectors\ConnectorInterface;
-use Rapide\LaravelQueueKafka\Queue\KafkaQueue;
+use Koo\LaravelQueueKafka\Queue\KafkaQueue;
 use RdKafka\Conf;
 use RdKafka\KafkaConsumer;
 use RdKafka\Producer;

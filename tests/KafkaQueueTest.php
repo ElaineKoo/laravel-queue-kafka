@@ -1,8 +1,8 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Rapide\LaravelQueueKafka\Queue\Jobs\KafkaJob;
-use Rapide\LaravelQueueKafka\Queue\KafkaQueue;
+use Koo\LaravelQueueKafka\Queue\Jobs\KafkaJob;
+use Koo\LaravelQueueKafka\Queue\KafkaQueue;
 
 /**
  * @property \Mockery\MockInterface producer

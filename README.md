@@ -6,6 +6,10 @@ Kafka Queue driver for Laravel
 [![StyleCI](https://styleci.io/repos/99249783/shield)](https://styleci.io/repos/99249783)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 
+#### Inspired By
+- [rapideinternet/laravel-queue-kafka](https://github.com/rapideinternet/laravel-queue-kafka.git)
+ 
+
 #### Installation
 
 1. Install [librdkafka c library](https://github.com/edenhill/librdkafka)

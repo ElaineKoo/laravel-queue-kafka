@@ -1,6 +1,6 @@
 <?php
 
-namespace Rapide\LaravelQueueKafka;
+namespace Koo\LaravelQueueKafka;
 
 class LumenQueueKafkaServiceProvider extends LaravelQueueKafkaServiceProvider
 {

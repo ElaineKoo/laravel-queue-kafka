@@ -32,15 +32,15 @@ class ComposerStaticInit7fa606b89890e98020d712f3be9f5d24
             'Symfony\\Component\\Debug\\' => 24,
             'Symfony\\Component\\Console\\' => 26,
         ),
-        'R' => 
-        array (
-            'Rapide\\LaravelQueueKafka\\' => 25,
-        ),
         'P' => 
         array (
             'Psr\\SimpleCache\\' => 16,
             'Psr\\Log\\' => 8,
             'Psr\\Container\\' => 14,
+        ),
+        'K' => 
+        array (
+            'Koo\\LaravelQueueKafka\\' => 22,
         ),
         'I' => 
         array (
@@ -103,10 +103,6 @@ class ComposerStaticInit7fa606b89890e98020d712f3be9f5d24
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
         ),
-        'Rapide\\LaravelQueueKafka\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
-        ),
         'Psr\\SimpleCache\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/simple-cache/src',
@@ -118,6 +114,10 @@ class ComposerStaticInit7fa606b89890e98020d712f3be9f5d24
         'Psr\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
+        'Koo\\LaravelQueueKafka\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'Illuminate\\Support\\' => 
         array (

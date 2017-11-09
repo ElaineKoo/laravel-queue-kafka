@@ -1,5 +1,5 @@
 {
-  "name": "ElaineKoo/laravel-queue-kafka",
+  "name": "koo/laravel-queue-kafka",
   "description": "Kafka driver for Laravel Queue",
   "license": "MIT",
   "authors": [

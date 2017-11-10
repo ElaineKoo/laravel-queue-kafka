@@ -1,13 +1,13 @@
 Kafka Queue driver for Laravel
 ======================
-[![Latest Stable Version](https://poser.pugx.org/rapide/laravel-queue-kafka/v/stable?format=flat-square)](https://packagist.org/packages/rapide/laravel-queue-kafka)
-[![Build Status](https://travis-ci.org/rapideinternet/laravel-queue-kafka.svg?branch=master)](https://travis-ci.org/rapideinternet/laravel-queue-kafka)
-[![Total Downloads](https://poser.pugx.org/rapide/laravel-queue-kafka/downloads?format=flat-square)](https://packagist.org/packages/rapide/laravel-queue-kafka)
+[![Latest Stable Version](https://poser.pugx.org/Koo/laravel-queue-kafka/v/stable?format=flat-square)](https://packagist.org/packages/Koo/laravel-queue-kafka)
+[![Build Status](https://travis-ci.org/Koointernet/laravel-queue-kafka.svg?branch=master)](https://travis-ci.org/Koointernet/laravel-queue-kafka)
+[![Total Downloads](https://poser.pugx.org/Koo/laravel-queue-kafka/downloads?format=flat-square)](https://packagist.org/packages/Koo/laravel-queue-kafka)
 [![StyleCI](https://styleci.io/repos/99249783/shield)](https://styleci.io/repos/99249783)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 
 #### Inspired By
-- [rapideinternet/laravel-queue-kafka](https://github.com/rapideinternet/laravel-queue-kafka.git)
+- [Koointernet/laravel-queue-kafka](https://github.com/Koointernet/laravel-queue-kafka.git)
  
 
 #### Installation
@@ -34,15 +34,15 @@ Kafka Queue driver for Laravel
     
 4. Install this package via composer using:
 
-	`composer require rapide/laravel-queue-kafka`
+	`composer require koo/laravel-queue-kafka`
 
 5. Add LaravelQueueKafkaServiceProvider to `providers` array in `config/app.php`:
 
-	`Rapide\LaravelQueueKafka\LaravelQueueKafkaServiceProvider::class,`
+	`Koo\LaravelQueueKafka\LaravelQueueKafkaServiceProvider::class,`
 	
    If you are using Lumen, put this in `bootstrap/app.php`
     
-    `$app->register(Rapide\LaravelQueueKafka\LumenQueueKafkaServiceProvider::class);`
+    `$app->register(Koo\LaravelQueueKafka\LumenQueueKafkaServiceProvider::class);`
 
 6. Add these properties to `.env` with proper values:
 

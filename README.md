@@ -71,4 +71,5 @@ You can contribute to this package by discovering bugs and opening issues. Pleas
 
 #### Supported versions of Laravel 
 
+
 Tested on: [5.5]
